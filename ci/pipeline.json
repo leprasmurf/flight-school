@@ -14,7 +14,8 @@
       name: test-app,
       plan: [
         {
-          get: flight-school
+          get: flight-school,
+          trigger: true
         },{
           task: tests,
           file: flight-school/build.json
